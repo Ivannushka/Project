@@ -1,0 +1,120 @@
+<!-- <DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Home</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+            <!-- JavaScript Bundle with Popper -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+<!--  
+      </head>
+        <body>  -->
+
+            <html lang="en">
+                <head>
+                  <meta charset="utf-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <title>jQuery UI Tabs - Default functionality</title>
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+                  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!-- ACTIVE LINK? -->
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.css" />
+                 
+                  <link rel="stylesheet" href="/resources/demos/style.css">
+                  <link rel="stylesheet" href="style.css">
+                  
+                  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+                  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+                  <script>
+                  $( function() {
+                    $( "#tabs" ).tabs();
+                  } );
+                  </script>
+                </head>
+                <body>
+            
+<!-- HEAD & BREADCRUMS -->
+          <header class="head">
+            <div class="container-head">
+              <div class="head-inner">
+                <div class="head-logo">
+                  <img src="./images/logo1.png" alt="logo" class="logo" width="50%">
+                </div>
+        <nav class="navigation" id="navi">
+          <a href="index.html" onclick="myFunction(event)" class="linked" id="link-color-changed">Home</a>
+          <a href="page2.html" class="linked">Articles</a>
+          <a href="page4.html" class="linked">Chat</a>
+          <a href="page5.html" class="linked">Register</a>
+          <a href="" class="linked disabled">About us</a>
+        </nav>
+              </div>
+        </div>
+          </header>
+    
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item" id="back"><a href="./index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About us</li>
+            </ol>
+          </nav>
+    <!-- CONTENT -->
+    <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">Nunc tincidunt</a></li>
+          <li><a href="#tabs-2">Proin dolor</a></li>
+          <li><a href="#tabs-3">Aenean lacinia</a></li>
+        </ul>
+        <div id="tabs-1">
+            
+            <div class="row">
+            <div class="col-xs-12 col-md-5">
+                <img src="./images/weAre.jpg" alt="We are">
+            </div>
+            <div class="col-xs-12 col-md-7"></div>
+          <p>Steampunk is an art form, technological or architectural style that derives mostly from science fiction and fantasy. Its creators envision an alternative industrial future world, which somehow diverged from our normal past during the Victorian era. This was when steam-powered technology was on the up-and-up and was the way to go.
+            Steampunk technology became part of this retro future, where steam, gears and cogs power the machines and air Travel is best done in good, old-fashioned Zeppelin airships. There are many examples of this fascinating art style in the world.</p>
+        </div>
+        </div>
+    </div>
+        <div id="tabs-2">
+          <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+          <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+        </div>
+      </div>
+
+      
+
+      <iframe src="https://www.google.com/maps/d/embed?mid=1DyNyv57_v4zXfI87Vh8glb8QCds" width="640" height="480"></iframe>
+    <!--  -->
+       <footer>
+        <div class="container-foot">
+          <div class="foot-inner">
+            &#169; Free People United
+          </div>
+        </div>    
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+
+
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+      <!-- <script src="js/fancy.js"></script> -->
+      <!-- <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> -->
+    
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="js/main.js"></script>
+      </body>
+    </html>
