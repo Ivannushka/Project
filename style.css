@@ -105,31 +105,9 @@ width: 90%;
   margin-inline-start: 10px;
   max-width: 50%;
 }
-
-/* ======???? FIND OUT ???===== */
-/* .send-button {
-    padding-top: 10px;
-  }
-  .button-submit {
-    height: 30px;
-    width: 50px;
-
-  } */
-/* =======check active====== */
-
-/* .active {
-  color: red;
-} */
-  /* color: #6543210 */
- 
-  /* For mobile phones: */
- /* [class*="col-"] {
-  width: 100%; 
-} */
   .col-md-4 {
     padding: 5px;
-    /* align-items: center;
-justify-content: center; */
+  
   }
 
 /* =========2 PAGE===========*/
@@ -139,13 +117,10 @@ justify-content: center; */
 }
 /* container */
 .for-page-two  {
-  /* display: flex; */
 padding: 0;
 width: 100%;
 }
-/* container-page2  */
 .page2 {
-  /* display: flex; */
   margin: 30px;
   padding: 20px;
   background: rgb(255, 246, 230);
@@ -161,8 +136,6 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-  
-
   @media only screen and (max-width: 700px){
     .articleImage {
 max-width: 100%;
@@ -291,9 +264,6 @@ text-align: justify;
 .nav-link.active {
   background-color: goldenrod !important;
 }
-/* .nav-link button:hover {
-  color:  goldenrod !important;
-} */
 .map-contacts {
   padding-top: 30;
   padding-bottom: 50px;
